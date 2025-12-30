@@ -34,7 +34,7 @@ int main(){
 
   for(int i = 0; i < userInputArray.size()-1; ++i){
     std::cout << userInputArray.at(i) << " ";
-    if (counter == expressNum){
+    if (counter == expressNum){ // not solution always true need to find a mechanism to show position number so i can relate the if
        
       std::cout << "=";
     }
